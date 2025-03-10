@@ -1,3 +1,7 @@
+<?php $page = 'practice';
+$base_url = 'http://localhost/vishal3/lawyer2'
+// $base_url = 'https://marketingexperts.in/projects/lawyer/demo'
+?>
 <header class="header stricky">
 	<div class="containerFull">
 		<div class="inline-header py-3">
@@ -13,12 +17,12 @@
 			<div class="menu-links ">
 
 				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="about-us.php">About</a></li>
+					<li><a href="<?php echo $base_url; ?>/index.php">Home</a></li>
+					<li><a href="<?php echo $base_url; ?>/about-us.php">About</a></li>
 
-					<li><a href="our-practice">Our Practice</a></li>
+					<li><a href="<?php echo $base_url; ?>/our-practice">Our Practice</a></li>
 					<!--<li><a href="important-links.php">Important Links</a></li>-->
-					<li><a href="contact-us.php">Contact Us</a></li>
+					<li><a href="<?php echo $base_url; ?>/contact-us.php">Contact Us</a></li>
 				</ul>
 
 

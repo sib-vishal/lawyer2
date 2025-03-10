@@ -1,5 +1,6 @@
 <?php $page = 'practice';
-$base_url = 'https://marketingexperts.in/projects/lawyer/demo'
+$base_url = 'http://localhost/vishal3/lawyer2'
+// $base_url = 'https://marketingexperts.in/projects/lawyer/demo'
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +59,7 @@ $base_url = 'https://marketingexperts.in/projects/lawyer/demo'
 
                     <!--</p>-->
                     <div class="mt-5">
-                        <a href="our-practice/income-tax-law.php" class="btn_1 ">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="<?php echo $base_url; ?>/our-practice/income-tax-law.php" class="btn_1 ">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                     </div>
                         
                     </div>
@@ -95,13 +96,13 @@ $base_url = 'https://marketingexperts.in/projects/lawyer/demo'
                         </p>
                         <ul class="row row-cols-2 mt-4 services_list">
                          <li><strong>GST Registration</strong></li>
-    <li><strong>GST Return Filing</strong></li>
-    <li><strong>GST Compliance & Audit</strong></li>
-    <!--<li><strong>Input Tax Credit (ITC) Optimization</strong></li>-->
-    <li><strong>GST Advisory & Consultation</strong></li>
-    <li><strong>E-Way Bill & Invoicing Solutions</strong></li>
-    <!--<li><strong>GST Dispute Resolution & Litigation</strong></li>-->
-    <li><strong>Sector-Specific GST Solutions</strong></li>
+                        <li><strong>GST Return Filing</strong></li>
+                        <li><strong>GST Compliance & Audit</strong></li>
+                        <!--<li><strong>Input Tax Credit (ITC) Optimization</strong></li>-->
+                        <li><strong>GST Advisory & Consultation</strong></li>
+                        <li><strong>E-Way Bill & Invoicing Solutions</strong></li>
+                        <!--<li><strong>GST Dispute Resolution & Litigation</strong></li>-->
+                        <li><strong>Sector-Specific GST Solutions</strong></li>
                     </ul>
                     
                     <!--<p class="mt-4">-->
@@ -110,7 +111,7 @@ $base_url = 'https://marketingexperts.in/projects/lawyer/demo'
 
                     <!--</p>-->
                      <div class="mt-5">
-                        <a href="javascript:void(0);" class="btn_1 ">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="<?php echo $base_url; ?>/our-practice/gst.php" class="btn_1 ">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                     </div>
                         
                     </div>
@@ -134,13 +135,11 @@ Our corporate law experts provide comprehensive legal services to help businesse
                         </p>
                         <ul class="row row-cols-2 mt-4 services_list">
                        <li><strong>Business Formation & Structuring</strong></li>
-    <li><strong>Corporate Governance & Compliance</strong></li>
-    <li><strong>Mergers & Acquisitions (M&A)</strong></li>
-    <li><strong>Contract Drafting & Negotiation</strong></li>
-    <li><strong>Intellectual Property Protection</strong></li>
-    <li><strong>Corporate Taxation & Financial Compliance</strong></li>
-    <!--<li><strong>Employment & Labor Law Advisory</strong></li>-->
-    <!--<li><strong>Corporate Dispute Resolution & Litigation</strong></li>-->
+                        <li><strong>Corporate Governance & Compliance</strong></li>
+                        <li><strong>Mergers & Acquisitions (M&A)</strong></li>
+                        <li><strong>Contract Drafting & Negotiation</strong></li>
+                        <li><strong>Intellectual Property Protection</strong></li>
+                        <li><strong>Corporate Taxation & Financial Compliance</strong></li>
                     </ul>
                     
                     <!--<p class="mt-4">-->
@@ -149,7 +148,7 @@ Our corporate law experts provide comprehensive legal services to help businesse
 
                     <!--</p>-->
                      <div class="mt-5">
-                        <a href="javascript:void(0);" class="btn_1 ">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="<?php echo $base_url; ?>/our-practice/corporate-law-solutions.php" class="btn_1 ">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                     </div>
                         
                     </div>
@@ -178,7 +177,7 @@ Our corporate law experts provide comprehensive legal services to help businesse
                     experienced team today and take the first step toward resolving your challenges
                 </p>
 
-                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn_2 mt-5">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                <a href="<?php echo $base_url; ?>/contact-us.php"  class="btn_2 mt-5">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
 
             </div>
         </section>
